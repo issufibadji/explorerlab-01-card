@@ -1,0 +1,14 @@
+Criar vite
+1-npm creat vit@latest . //com ponto muda projeto localo 
+1-npm creat vit@latest // sem ponto->pergunta nome de projeto
+  *Projetct name:
+  *select a framework: vanilla(js pura)
+  *js ou ts
+
+----Depois rodar comandos------
+colone rep
+code .
+code -r .
+1-node js
+2-npm install
+3-npm rum dev
