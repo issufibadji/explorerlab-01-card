@@ -5,6 +5,8 @@ Criar vite
   *select a framework: vanilla(js pura)
   *js ou ts
 
+http://vanilla-js.com/
+https://vitejs.dev/guide/
 ----Depois rodar comandos------
 colone rep
 code .
@@ -12,3 +14,9 @@ code -r .
 1-node js
 2-npm install
 3-npm rum dev
+
+-----------Aula2---------
+1-npm install imask
+  -import IMask from 'imask';
+  https://imask.js.org/guide.html
+
