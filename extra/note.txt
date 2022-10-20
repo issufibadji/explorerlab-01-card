@@ -20,3 +20,13 @@ code -r .
   -import IMask from 'imask';
   https://imask.js.org/guide.html
 
+----------------
+git remote --v ==>verifica versão remota de projeto
+git remote set-url <remote_name> <remote_url>
+git remote set-url git@github.com:issufibadji/explorerlab-01-card.git
+
+ou
+git init
+git add .
+git commirt -m"add"
+git remote add git@github.com:issufibadji/explorerlab-01-card.git pus -u origin main

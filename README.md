@@ -7,6 +7,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#cloud-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -34,6 +35,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
+O projeto foi desenvolvido durante a [Explorer-Lab-1](https://https://lp.rocketseat.com.br/inscricao/explorer-lab?utm_source=site_rocketseat&utm_medium=top_banner&utm_campaign=explorer-lab), realizada pela [Rocketseat](https://www.rocketseat.com.br/)
+
+## :cloud: Deploy
+
+O projeto está hospedado no Github Pages
+
+> https://explorer-lab-card-three.vercel.app/
 
 ## 🔖 Layout
 
@@ -41,8 +49,8 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT.
+Este projeto esta sobe a licença MIT. Consulte a [LICENÇA](https://github.com/issufibadji/explorerlab-01-card/blob/master/LICENSE) para obter mais informações.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ by Issufi Badji :wave: [Acessa meu portfolio!](issufibadji.github.io/portfolio/)
