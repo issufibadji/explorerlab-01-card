@@ -18,7 +18,8 @@ function setCardType(type) {
 }
 
 //setCardType("visa")
-globalThis.setCardType = setCardType //console ->globalThis.setCardType("mastercard")/window.setCardType("mastercard")
+globalThis.setCardType = setCardType
+    //console ->globalThis.setCardType("mastercard")/window.setCardType("mastercard")
 
 //Aulas-02
 //Security code
@@ -75,3 +76,54 @@ const cardNumberPattern = {
 }
 
 const cardNumberMasked = IMask(cardNumber, cardNumberPattern)
+
+const addButton = document.querySelector("#add-card")
+addButton.addEventListener("click", () => {
+    alert("Cartão Adicionado !")
+})
+
+document.querySelector("form").addEventListener("submit", (event) => {
+    event.preventDefault()
+})
+
+//cardholder code
+
+const cardholder = document.querySelector("#card-holder")
+cardholder.addEventListener("input", () => {
+    const ccHolder = document.querySelector(".cc-holder .value")
+
+    ccHolder.innerText =
+        cardholder.value.length === 0 ? "FULANO DA COSTA" : cardholder.value
+})
+
+//ACESS CONTEUDO
+//securityCode
+securityCodeMasked.on("accept", () => {
+    updateSecurtyCode(securityCodeMasked.value)
+})
+
+function updateSecurtyCode(code) {
+    const ccSecutiry = document.querySelector(".cc-security .value")
+    ccSecutiry.innerText = code.length === 0 ? "123" : code
+}
+
+//cardNumber
+cardNumberMasked.on("accept", () => {
+    const cardType = cardNumberMasked.masked.currentMask.cardtype
+    setCardType(cardType)
+    updateCardNumber(cardNumberMasked.value)
+})
+
+function updateCardNumber(number) {
+    const ccNumber = document.querySelector(".cc-number")
+    ccNumber.innerText = number.length === 0 ? "1234 5678 9012 3456" : number
+}
+//
+expirationDateMasked.on("accept", () => {
+    updateExpirationDate(expirationDateMasked.value)
+})
+
+function updateExpirationDate(date) {
+    const ccExpiration = document.querySelector(".cc-number")
+    ccExpiration.innerText = date.length === 0 ? "02/32" : date
+}
